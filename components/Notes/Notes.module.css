@@ -1,0 +1,28 @@
+.root {
+  display: grid;
+  align-content: flex-start;
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 50px;
+
+  padding-bottom: 2px;
+  padding-right: 5px;
+
+  overflow-y: auto;
+}
+
+.root::-webkit-scrollbar {
+  width: 10px;
+}
+
+.root::-webkit-scrollbar-track {
+  background-color: var(--gray-lighter-third);
+}
+
+.root::-webkit-scrollbar-thumb {
+  background-color: var(--gray-light);
+}
+
+.root::-webkit-scrollbar-thumb:hover {
+  background-color: var(--gray-lighter);
+}

@@ -1,0 +1,24 @@
+.password-field-wrapper,
+.password-confirm-field-wrapper {
+  position: relative;
+  display: flex;
+
+  width: 100%;
+
+  margin-top: 50px;
+}
+
+.password-field input,
+.password-confirm-field input {
+  padding-right: 75px;
+}
+
+.sign-up-button {
+  align-self: flex-end;
+
+  margin-top: 50px;
+}
+
+.error-message-block {
+  margin-top: 25px;
+}
